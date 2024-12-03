@@ -10,7 +10,7 @@
                FontSize="Large" 
                HorizontalOptions="Center" />
 
-        <Button Text="Ir a Recargas" Clicked="GoToRecargasPage" />
+        <Button Text="Ir a las Recargas" Clicked="GoToRecargasPage" />
     </StackLayout>
 
 </ContentPage>
