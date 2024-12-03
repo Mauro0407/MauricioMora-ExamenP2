@@ -2,7 +2,11 @@ namespace MauricioMora_ExamenP2.Views;
 
 public partial class mmora_label1 : ContentPage
 {
-	private string filepath;
+    private async void GoToGridLayout(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new mmora_label2());
+    }
+    private string filepath;
 	public mmora_label1()
 	{
 		InitializeComponent();
@@ -44,4 +48,5 @@ public partial class mmora_label1 : ContentPage
 		NameEntry.Text = string.Empty;
 		PhoneEntry.Text = string.Empty;
     }
+
 }

@@ -12,5 +12,6 @@
                FontAttributes="Bold" 
                Margin="10,20,10,5"/>
         <Label Text="{Binding UltimaRecarga}" FontSize="Medium" />
+        <Button Text="Ir a Información Personal" Clicked="GoToGridLayout" />
     </StackLayout>
 </ContentPage>
